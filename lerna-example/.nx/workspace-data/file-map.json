@@ -1,0 +1,94 @@
+{
+  "version": "6.0",
+  "nxVersion": "19.5.3",
+  "deps": {
+    "nx": "^19.5.3",
+    "lerna": "^8.1.7"
+  },
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "nonProjectFiles": [
+      {
+        "file": "README.MD",
+        "hash": "3011860168895754317"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "16722851342459420272"
+      },
+      {
+        "file": "pnpm-workspace.yaml",
+        "hash": "414265049992887245"
+      },
+      {
+        "file": "nx.json",
+        "hash": "16155430883970421477"
+      },
+      {
+        "file": "pnpm-lock.yaml",
+        "hash": "7742275034475663751"
+      },
+      {
+        "file": "lerna.json",
+        "hash": "10010256335013790573"
+      },
+      {
+        "file": ".nx/workspace-data/d/server-process.json",
+        "hash": "14313691518047259960"
+      },
+      {
+        "file": "package.json",
+        "hash": "6666743749277383112"
+      }
+    ],
+    "projectFileMap": {
+      "a": [
+        {
+          "file": "packages/a/README.md",
+          "hash": "17002001921416591732"
+        },
+        {
+          "file": "packages/a/__tests__/a.test.js",
+          "hash": "6375740343908548760"
+        },
+        {
+          "file": "packages/a/lib/a.js",
+          "hash": "17185698664491500299"
+        },
+        {
+          "file": "packages/a/main.js",
+          "hash": "11355635621087716521"
+        },
+        {
+          "file": "packages/a/package.json",
+          "hash": "17068091563122378611",
+          "deps": [
+            "b"
+          ]
+        }
+      ],
+      "b": [
+        {
+          "file": "packages/b/README.md",
+          "hash": "7896783350214521062"
+        },
+        {
+          "file": "packages/b/__tests__/b.test.js",
+          "hash": "10880973687683149757"
+        },
+        {
+          "file": "packages/b/lib/b.js",
+          "hash": "6939462017638942012"
+        },
+        {
+          "file": "packages/b/package.json",
+          "hash": "9558982273780490520",
+          "deps": [
+            "npm:axios"
+          ]
+        }
+      ]
+    }
+  }
+}
