@@ -1,0 +1,5 @@
+
+> b@0.0.0 test /Users/thomas/dev/mfa/lerna-example/packages/b
+> node ./__tests__/b.test.js
+
+b tests passed

@@ -1,0 +1,5 @@
+
+> a@0.0.0 build /Users/thomas/dev/mfa/lerna-example/packages/a
+> echo "build a"
+
+build a
