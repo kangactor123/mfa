@@ -1,5 +1,6 @@
 const cjs = require("@rollup/plugin-commonjs");
 const { babel } = require("@rollup/plugin-babel");
+const terser = require("@rollup/plugin-terser");
 
 module.exports = {
   input: "src/main.js",
@@ -18,5 +19,6 @@ module.exports = {
     babel({
       babelHelpers: "bundled",
     }),
+    terser(),
   ],
 };

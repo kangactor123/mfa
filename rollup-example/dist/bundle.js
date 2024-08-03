@@ -1,18 +1,1 @@
-'use strict';
-
-var plusOne = function plusOne(num) {
-  return num + 1;
-};
-
-function getDefaultExportFromCjs (x) {
-	return x.__esModule && Object.prototype.hasOwnProperty.call(x, 'default') ? x['default'] : x;
-}
-
-var common = "hello";
-var commonjs = /*@__PURE__*/getDefaultExportFromCjs(common);
-
-function main() {
-  console.log(commonjs, plusOne(1));
-}
-
-module.exports = main;
+"use strict";function e(e){return e.__esModule&&Object.prototype.hasOwnProperty.call(e,"default")?e.default:e}var o=e("hello");module.exports=function(){console.log(o,1+1)};
