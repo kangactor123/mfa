@@ -1,0 +1,54 @@
+{
+  "run": {
+    "command": "cli run test,build --scope=a --verbose",
+    "startTime": "2024-07-28T04:22:16.013Z",
+    "endTime": "2024-07-28T04:22:16.042Z",
+    "inner": false
+  },
+  "tasks": [
+    {
+      "taskId": "b:test",
+      "target": "test",
+      "projectName": "b",
+      "hash": "2159535799783211297",
+      "startTime": "2024-07-28T04:22:16.019Z",
+      "endTime": "2024-07-28T04:22:16.038Z",
+      "params": "",
+      "cacheStatus": "local-cache-hit",
+      "status": 0
+    },
+    {
+      "taskId": "b:build",
+      "target": "build",
+      "projectName": "b",
+      "hash": "13178964504247730100",
+      "startTime": "2024-07-28T04:22:16.020Z",
+      "endTime": "2024-07-28T04:22:16.039Z",
+      "params": "",
+      "cacheStatus": "local-cache-hit",
+      "status": 0
+    },
+    {
+      "taskId": "a:test",
+      "target": "test",
+      "projectName": "a",
+      "hash": "12487530812133053434",
+      "startTime": "2024-07-28T04:22:16.039Z",
+      "endTime": "2024-07-28T04:22:16.040Z",
+      "params": "",
+      "cacheStatus": "local-cache-hit",
+      "status": 0
+    },
+    {
+      "taskId": "a:build",
+      "target": "build",
+      "projectName": "a",
+      "hash": "17362414036751751195",
+      "startTime": "2024-07-28T04:22:16.041Z",
+      "endTime": "2024-07-28T04:22:16.041Z",
+      "params": "",
+      "cacheStatus": "local-cache-hit",
+      "status": 0
+    }
+  ]
+}
