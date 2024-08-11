@@ -10,20 +10,20 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": "README.MD",
-        "hash": "3011860168895754317"
+        "file": "package.json",
+        "hash": "6666743749277383112"
       },
       {
-        "file": ".gitignore",
-        "hash": "16722851342459420272"
+        "file": "nx.json",
+        "hash": "16155430883970421477"
       },
       {
         "file": "pnpm-workspace.yaml",
         "hash": "414265049992887245"
       },
       {
-        "file": "nx.json",
-        "hash": "16155430883970421477"
+        "file": ".nx/workspace-data/d/server-process.json",
+        "hash": "352635550480235449"
       },
       {
         "file": "pnpm-lock.yaml",
@@ -34,15 +34,36 @@
         "hash": "10010256335013790573"
       },
       {
-        "file": ".nx/workspace-data/d/server-process.json",
-        "hash": "14313691518047259960"
+        "file": ".gitignore",
+        "hash": "16722851342459420272"
       },
       {
-        "file": "package.json",
-        "hash": "6666743749277383112"
+        "file": "README.MD",
+        "hash": "3011860168895754317"
       }
     ],
     "projectFileMap": {
+      "b": [
+        {
+          "file": "packages/b/README.md",
+          "hash": "7896783350214521062"
+        },
+        {
+          "file": "packages/b/__tests__/b.test.js",
+          "hash": "10880973687683149757"
+        },
+        {
+          "file": "packages/b/lib/b.js",
+          "hash": "6939462017638942012"
+        },
+        {
+          "file": "packages/b/package.json",
+          "hash": "9558982273780490520",
+          "deps": [
+            "npm:axios"
+          ]
+        }
+      ],
       "a": [
         {
           "file": "packages/a/README.md",
@@ -65,27 +86,6 @@
           "hash": "17068091563122378611",
           "deps": [
             "b"
-          ]
-        }
-      ],
-      "b": [
-        {
-          "file": "packages/b/README.md",
-          "hash": "7896783350214521062"
-        },
-        {
-          "file": "packages/b/__tests__/b.test.js",
-          "hash": "10880973687683149757"
-        },
-        {
-          "file": "packages/b/lib/b.js",
-          "hash": "6939462017638942012"
-        },
-        {
-          "file": "packages/b/package.json",
-          "hash": "9558982273780490520",
-          "deps": [
-            "npm:axios"
           ]
         }
       ]
