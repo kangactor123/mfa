@@ -1,0 +1,56 @@
+2024-08-11T03:36:12.407219Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo/cookies/.turbo-cookie"), AnchoredSystemPathBuf(".turbo/cookies/1.cookie"), AnchoredSystemPathBuf(".turbo/cache")}
+2024-08-11T03:36:12.407232Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2024-08-11T03:36:16.908096Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo/cookies/2.cookie")}
+2024-08-11T03:36:16.908105Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2024-08-11T03:36:29.706654Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("teams/team-home/public")}
+2024-08-11T03:36:29.706666Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("team-home"), path: AnchoredSystemPathBuf("teams/team-home") }}))
+2024-08-11T03:36:33.607617Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("teams/team-home/public/bundle.js")}
+2024-08-11T03:36:33.607651Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("team-home"), path: AnchoredSystemPathBuf("teams/team-home") }}))
+2024-08-11T03:37:07.808305Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("teams/team-home/public/bundle.js")}
+2024-08-11T03:37:07.808325Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("team-home"), path: AnchoredSystemPathBuf("teams/team-home") }}))
+2024-08-11T03:37:48.508304Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("teams/team-home/public/bundle.js")}
+2024-08-11T03:37:48.508316Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("team-home"), path: AnchoredSystemPathBuf("teams/team-home") }}))
+2024-08-11T03:38:23.006791Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("teams/team-home/public/bundle.js")}
+2024-08-11T03:38:23.006804Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("team-home"), path: AnchoredSystemPathBuf("teams/team-home") }}))
+2024-08-11T03:38:52.108244Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("teams/team-home/public/bundle.js")}
+2024-08-11T03:38:52.108267Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("team-home"), path: AnchoredSystemPathBuf("teams/team-home") }}))
+2024-08-11T03:39:07.607371Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("teams/team-home/public/bundle.js")}
+2024-08-11T03:39:07.607391Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("team-home"), path: AnchoredSystemPathBuf("teams/team-home") }}))
+2024-08-11T03:39:53.507243Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("teams/team-home/public/bundle.js")}
+2024-08-11T03:39:53.507265Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("team-home"), path: AnchoredSystemPathBuf("teams/team-home") }}))
+2024-08-11T03:40:36.406768Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/shell/public/index.html"), AnchoredSystemPathBuf("apps/shell/public")}
+2024-08-11T03:40:36.406785Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("shell"), path: AnchoredSystemPathBuf("apps/shell") }}))
+2024-08-11T03:41:05.206376Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/shell/public/index.html")}
+2024-08-11T03:41:05.206386Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("shell"), path: AnchoredSystemPathBuf("apps/shell") }}))
+2024-08-11T03:41:22.107762Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/shell/public/index.html")}
+2024-08-11T03:41:22.107773Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("shell"), path: AnchoredSystemPathBuf("apps/shell") }}))
+2024-08-11T03:42:16.307543Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/shell/public/index.html")}
+2024-08-11T03:42:16.307556Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("shell"), path: AnchoredSystemPathBuf("apps/shell") }}))
+2024-08-11T03:43:27.707490Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/shell/public/index.html")}
+2024-08-11T03:43:27.707506Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("shell"), path: AnchoredSystemPathBuf("apps/shell") }}))
+2024-08-11T03:43:30.806583Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/shell/public/index.html")}
+2024-08-11T03:43:30.806595Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("shell"), path: AnchoredSystemPathBuf("apps/shell") }}))
+2024-08-11T03:43:42.406896Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("teams/team-jobs/public/bundle.js"), AnchoredSystemPathBuf("teams/team-jobs/public")}
+2024-08-11T03:43:42.406905Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("team-jobs"), path: AnchoredSystemPathBuf("teams/team-jobs") }}))
+2024-08-11T03:44:03.107138Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("teams/team-jobs/public/bundle.js")}
+2024-08-11T03:44:03.107149Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("team-jobs"), path: AnchoredSystemPathBuf("teams/team-jobs") }}))
+2024-08-11T03:45:01.707199Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("teams/team-jobs/public/bundle.js")}
+2024-08-11T03:45:01.707210Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("team-jobs"), path: AnchoredSystemPathBuf("teams/team-jobs") }}))
+2024-08-11T03:45:46.707451Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("teams/team-jobs/public/bundle.js")}
+2024-08-11T03:45:46.707468Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("team-jobs"), path: AnchoredSystemPathBuf("teams/team-jobs") }}))
+2024-08-11T03:45:50.306926Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("teams/team-jobs/public/bundle.js")}
+2024-08-11T03:45:50.306942Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("team-jobs"), path: AnchoredSystemPathBuf("teams/team-jobs") }}))
+2024-08-11T03:45:59.107338Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/shell/public/index.html")}
+2024-08-11T03:45:59.107353Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("shell"), path: AnchoredSystemPathBuf("apps/shell") }}))
+2024-08-11T03:46:40.106389Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/shell/public/index.html")}
+2024-08-11T03:46:40.106406Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("shell"), path: AnchoredSystemPathBuf("apps/shell") }}))
+2024-08-11T03:47:00.406466Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/shell/public/index.html")}
+2024-08-11T03:47:00.406478Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("shell"), path: AnchoredSystemPathBuf("apps/shell") }}))
+2024-08-11T03:47:07.407496Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/shell/public/index.html")}
+2024-08-11T03:47:07.407508Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("shell"), path: AnchoredSystemPathBuf("apps/shell") }}))
+2024-08-11T03:47:34.107107Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/shell/public/index.html")}
+2024-08-11T03:47:34.107122Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("shell"), path: AnchoredSystemPathBuf("apps/shell") }}))
+2024-08-11T03:48:32.606804Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("teams/team-jobs/public/bundle.js")}
+2024-08-11T03:48:32.606821Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("team-jobs"), path: AnchoredSystemPathBuf("teams/team-jobs") }}))
+2024-08-11T03:48:48.306283Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/shell/public/index.html")}
+2024-08-11T03:48:48.306298Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("shell"), path: AnchoredSystemPathBuf("apps/shell") }}))
