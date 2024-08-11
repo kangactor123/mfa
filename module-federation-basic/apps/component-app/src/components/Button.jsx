@@ -1,6 +1,6 @@
-import React from "react";
+import React, { useContext } from "react";
 
-import { join, map } from "lodash";
+import { NameContext } from "shared-library";
 
 const style = {
   backgroundColor: "orange",
@@ -11,9 +11,10 @@ const style = {
 };
 
 const Button = ({ type, children, onClick }) => {
+  const name = useContext(NameContext);
   return (
     <button onClick={onClick} style={style}>
-      {children} {join(map(["1", "2"]), "-")}
+      {children} {name}
     </button>
   );
 };
