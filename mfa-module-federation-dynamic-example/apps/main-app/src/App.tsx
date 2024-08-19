@@ -1,8 +1,11 @@
-import React, { useState } from "react";
+import React, { Suspense, useState } from "react";
 import ReactDOM from "react-dom/client";
 
 import "./index.css";
 import DynamicButton from "./components/DynamicButton";
+
+// @ts-ignore
+const Button = React.lazy(() => import("dynamic/Button"));
 
 const App = () => {
   const [button, setButton] = useState<{
@@ -35,6 +38,11 @@ const App = () => {
       <button onClick={setButtonFromComponentApp2}>load app2 button</button>
       <div>
         <DynamicButton button={button} />
+      </div>
+      <div>
+        <Suspense fallback="loading..">
+          <Button />
+        </Suspense>
       </div>
     </div>
   );
